@@ -7,7 +7,8 @@ A multi-page personal portfolio website showcasing professional experience, tech
 ## Author
 
 **Sumer Shinde**
-CS & Mathematics, Northeastern University (Class of 2026) · Boston, MA
+Bachelors of Science in Computer Science & Mathematics, Northeastern University (Class of 2026) · Boston, MA
+Masters of Science in Computer Science, Northeastern University (Class of 2027) · Boston, MA
 [LinkedIn](https://linkedin.com/in/sumershinde22) · [GitHub](https://github.com/sumershinde22) · shinde.su@northeastern.edu
 
 ---
@@ -30,30 +31,31 @@ The site uses no build step or framework — just plain HTML, CSS, and vanilla J
 ## Screenshot
 
 ### Home — Hero & Experience Timeline
+
 ![Home page with particle background, hero text, and experience timeline](assets/media/yosemite.JPG)
 
-> *Replace this placeholder with an actual screenshot once the site is running. See the build instructions below.*
+> _Replace this placeholder with an actual screenshot once the site is running. See the build instructions below._
 
 ### Pages at a glance
 
-| Page | URL | Description |
-|---|---|---|
-| Home | `index.html` | Hero, experience timeline, project cards, ML concept explorer |
-| About & Skills | `about.html` | Bio, animated skill bars, education |
-| Courses & Hobbies | `courses.html` | Coursework table, hiking & motorcycling |
+| Page              | URL            | Description                                                   |
+| ----------------- | -------------- | ------------------------------------------------------------- |
+| Home              | `index.html`   | Hero, experience timeline, project cards, ML concept explorer |
+| About & Skills    | `about.html`   | Bio, animated skill bars, education                           |
+| Courses & Hobbies | `courses.html` | Coursework table, hiking & motorcycling                       |
 
 ---
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Markup | HTML5 |
-| Styling | CSS3, Bootstrap 5.3, Google Fonts (Inter) |
-| Scripting | Vanilla JavaScript (ES modules) |
-| Charts | Chart.js (CDN) |
-| Linting | ESLint 9 + eslint-config-prettier |
-| Formatting | Prettier 3 |
+| Layer      | Technology                                |
+| ---------- | ----------------------------------------- |
+| Markup     | HTML5                                     |
+| Styling    | CSS3, Bootstrap 5.3, Google Fonts (Inter) |
+| Scripting  | Vanilla JavaScript (ES modules)           |
+| Charts     | Chart.js (CDN)                            |
+| Linting    | ESLint 9 + eslint-config-prettier         |
+| Formatting | Prettier 3                                |
 
 ---
 
@@ -142,6 +144,38 @@ npm run format:check
 # Auto-format JavaScript files
 npm run format
 ```
+
+---
+
+## Creative Addition — ML Concept Explorer
+
+The **ML Concept Explorer** (on the home page) is the feature that makes the site stand out.
+
+Instead of listing ML buzzwords on a skills page, it turns them into an **interactive, expandable glossary** tied directly to real project outcomes:
+
+- **What it is:** A grid of clickable cards, each representing an ML/CS concept Sumer has applied in an actual project.
+- **How it works:** Each card has a `+` toggle button. Clicking it expands a plain-English explanation that includes a concrete callout to the specific project where the concept was used.
+- **Why it's cool:** It demonstrates _understanding_, not just familiarity. Visitors can interactively drill into any concept and immediately see the real-world context, turning a static portfolio into a mini technical reference grounded in lived experience.
+
+The section is built with zero dependencies — pure HTML `hidden` attribute toggling via vanilla JS, with `aria-expanded` managed for accessibility.
+
+---
+
+## AI Usage
+
+I only used Claude Code (Sonnet 4.6) during the creation of this project.
+To generate the README.md file, I used the prompt 'From the website written, generate a README.md file which contains all of the following:
+
+1. Author
+2. Project Objective
+3. Tech Stack
+4. Project Structure
+5. Instructions to Build & Run
+6. Code Quality
+7. Creative Addition — ML Concept Explorer
+8. License'
+
+To generate the About me page, I used the prompt 'I want to make a about page for a website. Make an about me page that has a cool background, an introduction, my experiences, projects, and ML concepts explorer. ' It did not correctly format the ML concepts explorer, so I had to fix it my prompting 'Format the ML concepts explorer properly. Currently, when you maximize the card and then minimize, it keeps the shape of the maximized card.'
 
 ---
 
