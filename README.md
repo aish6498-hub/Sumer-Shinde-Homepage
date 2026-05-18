@@ -32,7 +32,7 @@ The site uses no build step or framework — just plain HTML, CSS, and vanilla J
 
 ### Home — Hero & Experience Timeline
 
-<img width="320" height="162" alt="u--NKh" src="https://github.com/user-attachments/assets/12f806b8-a9fc-4240-95ea-0245fa0ac0eb" />
+<img alt="u--NKh" src="https://github.com/user-attachments/assets/12f806b8-a9fc-4240-95ea-0245fa0ac0eb" />
 
 ### Pages at a glance
 
