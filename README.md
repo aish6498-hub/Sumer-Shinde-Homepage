@@ -175,6 +175,8 @@ To generate the README.md file, I used the prompt 'From the website written, gen
 
 To generate the About me page, I used the prompt 'I want to make a about page for a website. Make an about me page that has a cool background, an introduction, my experiences, projects, and ML concepts explorer. ' It did not correctly format the ML concepts explorer, so I had to fix it my prompting 'Format the ML concepts explorer properly. Currently, when you maximize the card and then minimize, it keeps the shape of the maximized card.'
 
+I had also used it a little to create some short blurbs you see around the website.
+
 ---
 
 ## License
