@@ -32,9 +32,8 @@ The site uses no build step or framework — just plain HTML, CSS, and vanilla J
 
 ### Home — Hero & Experience Timeline
 
-![Home page with particle background, hero text, and experience timeline](assets/media/yosemite.JPG)
+<img width="1920" height="966" alt="Screenshot 2026-05-17 at 11 54 57 PM" src="https://github.com/user-attachments/assets/dc8e5b79-d3f1-4dcc-ab45-0965f8b050ba" />
 
-> _Replace this placeholder with an actual screenshot once the site is running. See the build instructions below._
 
 ### Pages at a glance
 
