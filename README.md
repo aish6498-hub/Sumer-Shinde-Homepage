@@ -32,8 +32,7 @@ The site uses no build step or framework — just plain HTML, CSS, and vanilla J
 
 ### Home — Hero & Experience Timeline
 
-<img width="1920" height="966" alt="Screenshot 2026-05-17 at 11 54 57 PM" src="https://github.com/user-attachments/assets/dc8e5b79-d3f1-4dcc-ab45-0965f8b050ba" />
-
+<img width="320" height="162" alt="u--NKh" src="https://github.com/user-attachments/assets/12f806b8-a9fc-4240-95ea-0245fa0ac0eb" />
 
 ### Pages at a glance
 
