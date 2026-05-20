@@ -1,4 +1,4 @@
-// Skills bar animator 
+// Skills bar animator
 export function animateSkillBars() {
   const bars = document.querySelectorAll('.skill-bar-fill');
   const observer = new IntersectionObserver(

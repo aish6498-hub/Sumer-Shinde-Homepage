@@ -4,11 +4,7 @@ import { typeWriter, initParticles, drawProfitChart } from './main.js';
 
 highlightActiveNav();
 initParticles('particle-canvas');
-typeWriter(
-  'hero-typewriter',
-  'Software Engineer | Builder',
-  55
-);
+typeWriter('hero-typewriter', 'Software Engineer | Builder', 55);
 
 // ML card accordion
 const mlCards = document.querySelectorAll('.ml-card-btn');
