@@ -52,9 +52,10 @@ body {
   padding-bottom: 0.6rem;
 }
 
+/* In mobile view, when the icon is visble, it is in a dark colour and not clearly visible. It could be lighter!*/
 .navbar-toggler-icon {
   filter: invert(1);
-}
+} 
 
 .logo {
   font-size: 1.4rem;
