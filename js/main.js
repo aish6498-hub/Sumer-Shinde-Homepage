@@ -1,4 +1,6 @@
 // Skills bar animator
+// You currently use timers (setInterval) to manually calculate and change the bar width every 16 milliseconds.
+// You can use CSS Transitions to handle the animation
 export function animateSkillBars() {
   const bars = document.querySelectorAll('.skill-bar-fill');
   const observer = new IntersectionObserver(
