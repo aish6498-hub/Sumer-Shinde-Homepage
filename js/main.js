@@ -87,6 +87,9 @@ export function initParticles(canvasId) {
 }
 
 // PPO vs DQN interactive chart
+// I noticed that the chart looks blurry in UI and assumed it was an image. But since you have developed it by code, I looked into it.
+// Apparently, High-DPI screens (Retina displays) will make this canvas look blurry. 
+// You should multiply sizes by window.devicePixelRatio to sharpen the output.
 export function drawProfitChart(canvasId) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
