@@ -37,10 +37,13 @@ export function typeWriter(elementId, text, speed = 60) {
 }
 
 // Particle canvas background
+// The animation in landing page hero is really cool. The random movement elevates the page look.
 export function initParticles(canvasId) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
+  // Also, canvas.offsetWidth is evaluated only once at setup. 
+  // If the user resizes the browser or rotates their mobile screen, the canvas coordinates break, stretching the visuals.
   canvas.width = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight;
 
